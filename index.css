@@ -1,0 +1,32 @@
+:root {
+  --hover-background: rgba(179, 179, 179, 0.2);
+}
+
+body {
+ width: 100;
+}
+
+.container {
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.section {
+  height: 100vh;
+  scroll-snap-align: start;
+  color: white;
+}
+
+.shop-page {
+  background-color: rgb(227, 207, 207);
+  display: grid;
+  place-items: center;
+  padding: 100px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
